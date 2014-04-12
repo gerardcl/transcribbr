@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+	background: url(../images/stripe.png) repeat;
+	background-color:grey;
+	color: white;
+	margin-top:5em;
+}
+
+p {
+        font-family: Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin: 10px 10px 10px 10px;
+}
+h1{
+	font-size:5em;
+}
+#page-wrap {
+	width: auto;
+	background: rgba(6,37,6,0.9);
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#page-player {
+        width: auto;
+        background: rgba(6,37,6,0.9);
+        padding: 20px 50px 20px 50px;
+        margin: 20px auto;
+        min-height: 100px;
+        height: auto !important;        
+	height: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+	 
+}
+
+#page-footer {
+        width: auto;
+        background: rgba(6,37,6,0.9);
+        padding: 20px 50px 20px 50px;
+        margin: 20px auto;
+        min-height: 100px;
+        height: auto !important;
+        height: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+input, textarea {
+	padding: 5px;
+	width: 30%;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+    	text-align:right;
+}
+
+textarea {
+	height: 90px;
+}
+
+textarea:focus, input:focus {
+	border: 2px solid #900;
+}
+
+input.submit-button {
+	width: 100px;
+	text-align:center;
+	float: center;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.3em;
+}
+.fb-like iframe {
+    background: transparent;
+}

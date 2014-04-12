@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="fragment" content="!"> <!--necessari x les pagines estatiques pq google busqui ajax-->
+<title>transcribbr - a DIY audio transcriber helper html5 app</title> 
+<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<h1>TRANSCRIBBR</h1>
+<div id="page-wrap">
+<p>set audio link from dropbox or wherever you put your audio on the cloud...
+</p>
+<p>
+</p>
+<p>
+audio link: <input type="text" name="sourcelink" id="sourcelink"><input type="submit" id="setsource" name="setsource" value="Set" class="submit-button"></input>
+</p>
+<p><div id="progrss"></div></p>
+</div>
+<div id="page-player">
+<p>
+<input type="submit" id="setconfig" name="setconfig" value="Set" class="submit-button"></input><input type="text" name="audioloops"  maxlength="2" style="width:30px;"id="audioloops" value="2"></input>&nbsploops &nbsp&nbsp&nbsp with &nbsp<input type="text" style="width:30px;" name="audioperiod"  id="audioperiod" maxlength="2"  value="5"></input>&nbspseconds (per period)
+</p>
+<p>
+<audio controls src="" id="sample">
+<p><div id="display_meta"></div></p>
+</p>
+</div>
+<div id="page-footer">
+<div class="fb-like" data-href="http://transcribbr.suitse.com/" data-send="true" data-width="450" data-show-faces="true" data-colorscheme="dark"></div>
+<p>--------------------------------</p>
+<p>transcribbr © 2013</p>
+</div>
+<script type="text/javascript" src="transcribbr.js"></script>
+</body>
+</html>
