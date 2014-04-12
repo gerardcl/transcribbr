@@ -13,3 +13,5 @@ install:
 
 2.- browse to: localhost:8080
 
+3.- set and load an existing file on the Internet, i.e.: http://www.thescottishvoice.org.uk/Common-Assets/spaw2/uploads/files/audio-sample-stuart.mp3
+
