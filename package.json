@@ -1,0 +1,33 @@
+{
+  "name": "transcribbr",
+  "version": "0.0.1",
+  "description": "webapp for journalist audio transcriptions",
+  "main": "transcribbr.js",
+  "dependencies": {
+    "express": "~3.5.0",
+    "nib": "~1.0.2",
+    "socket.io": "~0.9.16",
+    "stylus": "~0.42.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodejs transcribbr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gerardcl/transcribbr.git"
+  },
+  "keywords": [
+    "webapp",
+    "journalist",
+    "journalism",
+    "audio",
+    "transcriptions"
+  ],
+  "author": "gerardcl@gmail.com",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/gerardcl/transcribbr/issues"
+  },
+  "homepage": "https://github.com/gerardcl/transcribbr"
+}
