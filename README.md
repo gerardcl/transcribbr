@@ -19,5 +19,5 @@ browse to:
 
     localhost:8080
 
-set and load an existing file on the Internet, i.e.: use next example file http://www.thescottishvoice.org.uk/Common-Assets/spaw2/uploads/files/audio-sample-stuart.mp3
+set and load an existing file on the Internet, i.e.: use next example file http://www.noiseaddicts.com/samples_1w72b820/37.mp3
 
