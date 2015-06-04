@@ -1,4 +1,4 @@
-transcribbr
+transcribbr [![Build Status](https://drone.io/github.com/gerardcl/transcribbr/status.png)](https://drone.io/github.com/gerardcl/transcribbr/latest)
 ===========
 
 webapp for journalist audio transcriptions
@@ -6,6 +6,8 @@ webapp for journalist audio transcriptions
 see it working at: http://transcribbr.suitse.com/
 
 ===========
+
+Quick-start guide
 
 install: 
 
