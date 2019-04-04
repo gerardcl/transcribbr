@@ -51,11 +51,11 @@ function onProgress() {
 
 audio.addEventListener("loadedmetadata", getMetadata, false);
 function getMetadata() {
-	channels = audio.mozChannels;
-	rate     = audio.mozSampleRate;
-	Length = audio.duration;
+	var channels = audio.mozChannels;
+	var rate     = audio.mozSampleRate;
+	var Length = audio.duration;
 	Length = Math.round(Length*Math.pow(10,2))/Math.pow(10,2);
-	sourcea = audio.src;
+	var sourcea = audio.src;
 	display.innerHTML = "Channels: " + channels +
 	"<br/>Rate: " + rate +
 	"<br/>Duration: " + Length + " sec" +
